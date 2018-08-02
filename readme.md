@@ -2,7 +2,7 @@
 
 This package offers a Tailwind CSS & Vue.js optimized notifications setup for your Laravel applications.
 
-![https://www.dropbox.com/s/wwl2je6yqpmlwoa/laravel-alerts.png](https://www.dropbox.com/s/wwl2je6yqpmlwoa/laravel-alerts.png)
+![https://www.dropbox.com/s/wwl2je6yqpmlwoa/laravel-alerts.png?dl=1](https://www.dropbox.com/s/wwl2je6yqpmlwoa/laravel-alerts.png?dl=1)
 
 ## Installation
 
