@@ -51,6 +51,7 @@ Then import them in your app.
 
 ```js
 window.Vue = require('vue')
+window.Events = new Vue // This will be used to emit/receive alerts
 
 Vue.component('alerts', require('./vendor/alerts/components/Alerts.vue'))
 ```
