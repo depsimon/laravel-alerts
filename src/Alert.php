@@ -10,8 +10,11 @@ class Alert implements \ArrayAccess
 
     public $type = 'info';
 
+    public $uid;
+
     public function __construct($attributes = [])
     {
+        $this->uid = '_' . str_random(9);
         $this->update($attributes);
     }
 

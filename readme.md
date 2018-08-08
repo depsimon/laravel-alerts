@@ -12,7 +12,7 @@ You can install the package via composer:
 composer require depsimon/laravel-alerts
 ```
 
-## Usage
+## Usage within Laravel
 
 Within your controllers, before you perform a redirect, make a call to the `alert()` function.
 
@@ -32,6 +32,22 @@ You may also do:
 - `alert_warning('Warning Message')`: Alert an 'warning' message.
 - `alert_error('Error Message')`: Alert an 'error' message.
 - `alert('Alert Message', 'Alert Title')`: Alert a message with a title.
+
+## Usage within Vue
+
+Within your Vue.js components, you can `$emit` an `alert` event.
+
+```js
+Events.$emit('alert', {
+    title: "Success",
+    message: "Your profile has been updated with success.",
+    type: "success"
+})
+```
+
+Only the `message` field is required.
+
+## Configuration
 
 After you've setup the alerts, you may display them in your views. We provide you with a template out of the box that works with Vue.js & Tailwind CSS.
 
