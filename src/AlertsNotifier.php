@@ -25,7 +25,7 @@ class AlertsNotifier
             $message = new Alert(compact('message', 'title', 'type'));
         }
 
-        $this->alerts->push($message + ['uid' => '_' . str_random(9)]);
+        $this->alerts->push($message);
 
         return $this->flash();
     }
